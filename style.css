@@ -1,0 +1,113 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+}
+.breadcrumb {
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
+	background: #a19e9e;
+	color: #fff;
+}
+.breadcrumb-item{
+    margin: 0;
+	padding: 5px;
+	color: #fff;
+}
+.form-group {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0 20px 0;
+
+}
+.form-control{
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 60%;
+}
+.form-select{
+    padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 10%;
+}
+.form-group-btn{
+	display: flex;;
+	justify-content: end;
+}
+label {
+	margin-bottom: 5px;
+}
+
+.main{
+	display: flex;
+	justify-content: space-between;
+	margin: 3% 0;
+}
+.login-info{
+}
+
+.btn-primary{
+	background-color: rgb(16, 126, 184);
+	color: #fff;
+	padding: 10px;
+	border: none;
+	font-weight: 600;
+	margin-right:10%;
+	border-radius: 5px;
+}
+.btn-success{
+	background-color: rgb(16, 184, 47);
+	color: #fff;
+	padding: 10px;
+	border: none;
+	font-weight: 600;
+	margin-right:10%;
+	border-radius: 5px;
+}
+.text-center{
+    text-align: center;
+}
+.forgot-password{
+	margin-top: .5rem;
+}
+.register {
+	margin-top: 20px;
+}
+.font-weight{
+	font-weight: 600;
+}
+.text-item{
+	color: black;
+	font-weight: 100;
+	margin: 1rem 0;
+}
+.link{
+	color: blue;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.form-resgiter{
+    width: 60%;
+    margin:  2% auto;;
+}
+.form-radio{
+    display: flex;
+}
+.main-register {
+	margin: 2% 0;
+}
+.form-check {
+	margin: 0 10px;
+}

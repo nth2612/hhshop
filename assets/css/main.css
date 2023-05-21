@@ -40,6 +40,7 @@ html{
     border-radius: 50%;
     background-color: #ff7e00;
     color: #fff;
+    cursor: pointer;
 }
 .img-header{
     height: 70px;
@@ -52,8 +53,16 @@ html{
 .icon-header{
     color:#ff7e00;
 }
+.b-header-hover:hover{
+    color: #ff7e00;
+    cursor: pointer;
+}
 .login-header, .cart-header, .hotline-header{
     margin-right: 20px;
+}
+.to_dangnhap, .to-build{
+    text-decoration: none;
+    color: #000;
 }
 .header-menu{
     background-color: #ff7e00;
@@ -83,11 +92,13 @@ html{
 
 /* End heading */
 
+
 .slidershow{
     /* display: none; */
 }
 .slide{
     display: none;
+    width: 100%;
 }
 /* Start footer */
 .footer{
@@ -140,6 +151,10 @@ html{
     font-size: 18px;
     color: #1435c3;
 }
+.more-news:hover{
+    cursor: pointer;
+    color: #ff7e00;
+}
 .news-heading{
     display: flex;
     justify-content: space-between;
@@ -161,6 +176,7 @@ html{
     box-shadow: 0 1px 5px rgba(0,0,0,.2);
     border-radius: 15px;
     margin: 0 16px;
+    cursor: pointer;
 }
 
 /* End footer */
@@ -250,6 +266,9 @@ html{
 .acc-list{
     display: flex;
     list-style: none;
+}
+.acc-link:hover .acc-name{
+    color: #0056b3;
 }
 .acc-icon{
     padding: 20px;

@@ -1,0 +1,90 @@
+/* Reset CSS */
+body{
+    background-color: #f8f8fc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Start heading */
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #fff;
+}
+.search-product{
+    line-height: 70px;
+}
+.input-header{
+    height: 46px;
+    border: 1px solid #d9d9d9;
+    border-radius: 23px;
+    padding-left: 20px;
+    outline: 0;
+}
+.btn-search{
+    height: 46px;
+    width: 46px;
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    background-color: #ff7e00;
+    color: #fff;
+    cursor: pointer;
+}
+.img-header{
+    height: 70px;
+}
+.group-icon-header{
+    display: inherit;
+    line-height: 70px;
+    font-size: 20px;
+}
+.icon-header{
+    color:#ff7e00;
+}
+.b-header-hover:hover{
+    color: #ff7e00;
+    cursor: pointer;
+}
+.login-header, .cart-header, .hotline-header{
+    margin-right: 20px;
+}
+.to_dangnhap, .to-build{
+    text-decoration: none;
+    color: #000;
+}
+.header-menu{
+    background-color: #ff7e00;
+    min-width: 1200px;
+    height: 76px;
+    padding: 12px;
+    margin-top: 70px;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.img-icon-lk{
+    width: 26px;
+    height: 26px;
+}
+.item-list{
+    text-align: center;
+    color: #fff;
+}
+.item-link{
+    text-decoration: none;
+    color: #000;
+}
+

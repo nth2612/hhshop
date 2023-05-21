@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng nhập tài khoản</title>
+	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+  	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/font/Roboto-Regular.ttf">
+    <link rel="stylesheet" href="/assets/font/fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="main-menu"><img src="./assets/img/logo.png" alt="" class="img-header"></a>
+        <div class="search-product">
+            <input type="text" size="50" class="input-header" placeholder="Nhập từ khóa của sản phẩm cần tìm">
+            <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="group-icon-header">
+            <div class="hotline-header">
+                <i class="fa-solid fa-phone-volume icon-header"></i>
+                <b class="b-header-hover">1900.0000</b>
+            </div>
+            <div class="login-header">
+                <i class="fa-solid fa-user icon-header"></i>
+                <a href="dang_nhap.html" class="to_dangnhap"><b class="b-header-hover">Đăng nhập</b></a>
+            </div>
+            <div class="cart-header">
+                <i class="fa-solid fa-cart-shopping icon-header"></i>
+                <b class="b-header-hover">Giỏ hàng</b>
+            </div>
+            <div class="computer-header">
+                <i class="fa-solid fa-computer icon-header"></i>
+                <a href="linh_kien.html" class="to-build"><b class="b-header-hover">Xây dựng máy tính</b></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-menu">
+            <ul class="menu-list">
+                <li class="item-list"><a href="products.html" id="gotoproducts" class="item-link"><img src="./assets/img/main.png" alt="" class="img-icon-lk"><p class="img-icon-desc">MAIN</p></a></li>
+                <li class="item-list"><a href="javascript:void(0);" class="item-link"><img src="./assets/img/cpu.png" alt="" class="img-icon-lk"><p class="img-icon-desc">CPU</p></a></li>
+                <li class="item-list"><a href="javascript:void(0);" class="item-link"><img src="./assets/img/ram.png" alt="" class="img-icon-lk"><p class="img-icon-desc">RAM</p></a></li>
+                <li class="item-list"><a href="javascript:void(0);" class="item-link"><img src="./assets/img/vga.png" alt="" class="img-icon-lk"><p class="img-icon-desc">VGA</p></a></li>
+                <li class="item-list"><a href="javascript:void(0);" class="item-link"><img src="./assets/img/ssd.png" alt="" class="img-icon-lk"><p class="img-icon-desc">Ổ cứng</p></a></li>
+                <li class="item-list"><a href="javascript:void(0);" class="item-link"><img src="./assets/img/psu.png" alt="" class="img-icon-lk"><p class="img-icon-desc">PSU</p></a></li>
+                <li class="item-list"><a href="javascript:void(0);" class="item-link"><img src="./assets/img/case.png" alt="" class="img-icon-lk"><p class="img-icon-desc">CASE</p></a></li>
+                <li class="item-list"><a href="javascript:void(0);" class="item-link"><img src="./assets/img/monitor.png" alt="" class="img-icon-lk"><p class="img-icon-desc">Màn hình</p></a></li>
+            </ul>
+    </div>
+
+
+	<div class="container">
+
+		<div class="breadcrumb">
+			<a href="/">
+				<p class="breadcrumb-item">Trang chủ</p>
+			</a>
+			<p class="breadcrumb-item">/</p>
+			<p class="breadcrumb-item">Đăng nhập tài khoản</p>	
+		</div>
+		<div class="main">
+			<div class="login-info">
+				<form name="loginForm" onsubmit="return validateForm()">
+					<h3>Thông tin khách hàng đăng nhập hệ thống</h3>
+					<div class="form-group">
+						<label class="form-label">Email đăng nhập</label>
+						<input type="text" name="email" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label>Mật khẩu</label>
+						<input type="password" name="password" class="form-control" required>
+					</div>
+					<div class="form-group-btn">
+						<button type="submit" class="btn-primary" >Đăng nhập</button>
+						<div class="forgot-password">
+							<a href="#" class="link-forgot">Quên mật khẩu?</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="register">
+				<p class="font-weight">Bạn chưa là thành viên?</p>
+				<p class="text-item">Đăng ký là thành viên để hưởng nhiều lợi ích và đặt mua hàng dễ dàng hơn.</p>
+				<a href="dang_ky.html" class="link">Đăng ký tài khoản</a>
+			</div>
+
+		</div>
+	</div>
+
+	<footer>
+		<div class="news">
+			<div class="news-heading">
+				<div class="start-head">TIN TỨC VÀ KẾT NỐI</div>
+				<div class="more-news">Xem tất cả +</div>
+			</div>
+			<div class="new-content">
+				<ul class="new-list">
+					<li class="new-item"><img src="./assets/img/25100-ezgif-com-webp-to-jpg--1-.jpg" alt="" class="img-new"><p class="new-desc">CPU AMD Ryzen 7 7800X3D 3D V-Cache thể hiện hiệu năng vượt trội...</p></li>
+					<li class="new-item"><img src="./assets/img/25099-nydgxjvckiuv4usbgqumf5-696x385.jpg" alt="" class="img-new"><p class="new-desc">DirectX 12 có tính năng mới giúp cải thiện hiệu năng gaming</p></li>
+					<li class="new-item"><img src="./assets/img/25098-dsc_0276-custom-728x485-jpg.png" alt="" class="img-new"><p class="new-desc">Nvidia có kế hoạch hoàn tiền cho các hãng mua chip RTX 4070...</p></li>
+					<li class="new-item"><img src="./assets/img/25097-0908_thr5995x-3.jpg" alt="" class="img-new"><p class="new-desc">CPU AMD Ryzen Threadripper PRO 5995WX phá kỷ lục Cinebench</p></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-top">
+				<div class="footer-infor">
+					<h2 class="footer-heading">Thông tin công ty</h2>
+					<p class="footer-desc">Giới thiệu công ty</p>
+					<p class="footer-desc">Tin tức công nghệ</p>
+					<p class="footer-desc">Thông tin liên hệ</p>
+					<p class="footer-desc">Nội quy hhshop</p>
+				</div>
+				<div class="footer-infor">
+					<h2 class="footer-heading">Hỗ trợ khách hàng</h2>
+					<p class="footer-desc">Hướng dẫn mua hàng online</p>
+					<p class="footer-desc">Chính sách trả góp</p>
+					<p class="footer-desc">Yêu cầu báo giá</p>
+					<p class="footer-desc">Xây dựng cấu hình</p>
+				</div>
+				<div class="footer-infor">
+					<h2 class="footer-heading">Chính sách chung</h2>
+					<p class="footer-desc">Chính sách đổi trả</p>
+					<p class="footer-desc">Chính sách vận chuyển</p>
+					<p class="footer-desc">Chính sách bảo hành</p>
+					<p class="footer-desc">Chính sách bảo mật thông tin</p>
+				</div>
+				<div class="footer-infor">
+					<h2 class="footer-heading">Thông tin khác</h2>
+					<p class="footer-desc">Tổng đài hỗ trợ miễn phí</p>
+					<p class="footer-desc">Gọi mua - Góp ý - Bảo hành</p>
+					<p class="footer-desc">0999.999.888</p>
+					<p class="footer-desc">Email:hhshop@gmail.com</p>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-add">
+					<h2 class="footer-add-heading">HHSHOP - HÀ NỘI</h2>
+					<p class="fb-desc"><b>Địa chỉ: </b>452 Trường Chinh, Khương Thượng, Đống Đa, Hà Nội</p>
+					<p class="fb-desc"><b>Kinh Doanh Mr. Tuấn Hải: </b>05555.12345</p>
+					<p class="fb-desc"><b>Bảo hành: </b>0888.999.444</p>
+					<p class="fb-desc"><b>Mở cửa: </b>08H30 - 18H Hàng Ngày</p>
+				</div>
+				<div class="footer-add">
+					<h2 class="footer-add-heading">HHSHOP - HỒ CHÍ MINH</h2>
+					<p class="fb-desc"><b>Địa chỉ: </b>8B Lý Thường Kiệt, Phường 12, Quận 5, TP.HCM</p>
+					<p class="fb-desc"><b>Kinh Doanh Mr. Xuân Hiếu: </b>07777.12345</p>
+					<p class="fb-desc"><b>Bảo hành: </b>0222.999.444</p>
+					<p class="fb-desc"><b>Mở cửa: </b>08H30 - 18H Hàng Ngày</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="dang_nhap.js"></script>
+</body>
+</html>
